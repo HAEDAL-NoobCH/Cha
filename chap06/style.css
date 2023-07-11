@@ -78,6 +78,7 @@ section img {
 
 section img#moonImg {
     justify-content: center;
+    top: -200;
     left: 25%;
     width: 50%;
     height: 50%;
@@ -88,7 +89,7 @@ section img#moonImg {
 
 #mainText {
     position: absolute;
-    right: -350px;
+    right: -50px;
     color: white;
     font-size: 7.5vw;
     z-index: 9;
