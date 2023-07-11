@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>youtube</title>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="errorDiv">창 너비를 1000 px<br>미만으로 줄여주세요</div>
+    <div class="service">
+        <!--Header-->
+        <header>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span class="title">Youtube</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipsis"></i>
+            </div>
+        </header>
+        <!--Video Player-->
+        <selection class="player">
+            <!--If mute=0, autoplay doesn't activate-->
+            <iframe src="https://www.youtube.com/embed/fLWuMf3ggHc?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </selection>
+        <div class="infoAndUpNext">
+            <!--Video Info-->
+            <section class="info">
+                <!--Metadata-->
+                <div class="metadata">
+                    <ul class="hashtags">
+                        <li>#이고도</li>
+                        <li>#Mouse</li>
+                        <li>#인디뮤직</li>
+                    </ul>
+                    <div class="titleAndButton">
+                        <span class="title clamp">[Official Audio] 이고도 (Lee go do) - Mouse</span>
+                        <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                    </button>
+                    </div>
+                    <span class="views">200000 views</span>
+                </div>
+                <!--Actions-->
+                <div class="actions">
+                    <li><button>
+                <i class="fas fa-thumbs-up" ></i>
+                <span>3K</span>
+            </button></li>
+                    <li><button>
+                <i class="fas fa-thumbs-down"></i>
+            </li>
+            </button>
+                        <li><button>
+                <i class="fas fa-share"></i>
+                <span>Share</span>
+            </button></li>
+                        <li><button>
+                    <i class="fas fa-plus"></i>
+                    <span>Save</span>
+                </button></li>
+                        <li><button>
+                    <i class="fab fa-font-awesome-flag"></i>
+                    <span>Report</span>
+                </button></li>
+                </div>
+                <!--Channel Description-->
+                <div class="channel">
+                    <div class="metadata">
+                        <img src="image/avatar.jpg" alt="">
+                        <div class="info">
+                            <span class="name">POCLANOS</span>
+                            <span class="subscribers">구독자 13.4만명</span>
+                        </div>
+                    </div>
+                    <button class="subscribe">subscribe</button>
+                </div>
+            </section>
+            <!--Up Next-->
+            <section class="upNext">
+                <span class="title">Up next</span>
+                <ul>
+                    <li class="item">
+                        <div class="img">
+                            <img src="https://i.ytimg.com/vi/H0e1_E06ncI/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB&rs=AOn4CLBPHyO_BOXzJqXWA-VHpfG1pHq0Fw" alt="">
+                        </div>
+                        <div class="info">
+                            <span class="title">[신인류 Official Audio] 너의 한마디 - 신인류 (SHIN IN RYU)</span>
+                            <span class="name">SHIN IN RYU</span>
+                            <span class="views">47k views</span>
+                        </div>
+                        <button class="moreBtn"></button>
+                    </li>
+                    <li class="item">
+                        <div class="img">
+                            <img src="https://i.ytimg.com/vi/CNOjcBxR4X4/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB&rs=AOn4CLC5J1p3i8UiycHFbgiFv6brNAwD0Q" alt="">
+                        </div>
+                        <div class="info">
+                            <span class="title">언젠가는</span>
+                            <span class="name">이상은</span>
+                            <span class="views">3.5M views</span>
+                        </div>
+                        <button class="moreBtn"></button>
+                    </li>
+                    <li class="item">
+                        <div class="img">
+                            <img src="https://i.ytimg.com/vi/MK_Su-gQ7SQ/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB&rs=AOn4CLBEJc1_rY0n1gQqm5-m0rye-AYjNg" alt="">
+                        </div>
+                        <div class="info">
+                            <span class="title">죽여줘</span>
+                            <span class="name">보수동 쿨러</span>
+                            <span class="views">760k views</span>
+
+                        </div>
+                        <button class="moreBtn"></button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
